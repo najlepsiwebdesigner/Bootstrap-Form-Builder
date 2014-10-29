@@ -441,3 +441,165 @@
       label  : Starting Text
       type   : textarea
       value  : default text
+-
+  title  : Multiple Radios
+  fields : 
+    name:
+      label  : Group Name
+      type   : input
+      value  : radios
+    label:
+      label  : Label Text
+      type   : input
+      value  : Multiple Radios
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
+    radios:
+      label  : Radios
+      type   : textarea-split
+      value  : ["Option one", "Option two"]
+-
+  title  : Multiple Radios Inline
+  fields : 
+    name:
+      label  : Group Name
+      type   : input
+      value  : radios
+    label:
+      label  : Label Text
+      type   : input
+      value  : Inline Radios
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
+    radios:
+      label  : Radios
+      type   : textarea-split
+      value  : [1,2,3,4]
+-
+  title  : Multiple Checkboxes
+  fields : 
+    name:
+      label  : Group Name
+      type   : input
+      value  : checkboxes
+    label:
+      label  : Label Text
+      type   : input
+      value  : Multiple Checkboxes
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
+    checkboxes:
+      label  : Checkboxes
+      type   : textarea-split
+      value  : ["Option one", "Option two"]
+-
+  title  : Multiple Checkboxes Inline
+  fields : 
+    name:
+      label  : Group Name
+      type   : input
+      value  : checkboxes
+    label:
+      label  : Label Text
+      type   : input
+      value  : Inline Checkboxes
+    required:
+      label  : Required
+      type   : checkbox
+      value  : false
+    checkboxes:
+      label  : Checkboxes
+      type   : textarea-split
+      value  : [1,2,3,4]
+-
+  title  : Select Basic
+  fields : 
+    id:
+      label  : ID / Name
+      type   : input
+      value  : selectbasic
+    label:
+      label  : Label Text
+      type   : input
+      value  : Select Basic
+    options:
+      label  : Options
+      type   : textarea-split
+      value  : ["Option one", "Option two"]
+    inputsize:
+      label: Input Size
+      type: select
+      value:
+        -
+          value    : input-mini
+          label    : Mini
+          selected : false
+        -
+          value    : input-small
+          label    : Small
+          selected : false
+        - 
+          value    : input-medium
+          label    : Medium
+          selected : false
+        -
+          value    : input-large
+          label    : Large
+          selected : false
+        -
+          value    : input-xlarge
+          label    : Xlarge
+          selected : true
+        -
+          value    : input-xxlarge
+          label    : Xxlarge
+          selected : false
+# -
+#   title  : Select Multiple
+#   fields : 
+#     id:
+#       label  : ID / Name
+#       type   : input
+#       value  : selectmultiple
+#     label:
+#       label  : Label Text
+#       type   : input
+#       value  : Select Multiple
+#     options:
+#       label  : Options
+#       type   : textarea-split
+#       value  : ["Option one", "Option two"]
+#     inputsize:
+#       label: Input Size
+#       type: select
+#       value:
+#         -
+#           value    : input-mini
+#           label    : Mini
+#           selected : false
+#         -
+#           value    : input-small
+#           label    : Small
+#           selected : false
+#         - 
+#           value    : input-medium
+#           label    : Medium
+#           selected : false
+#         -
+#           value    : input-large
+#           label    : Large
+#           selected : false
+#         -
+#           value    : input-xlarge
+#           label    : Xlarge
+#           selected : true
+#         -
+#           value    : input-xxlarge
+#           label    : Xxlarge
+#           selected : false

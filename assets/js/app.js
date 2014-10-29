@@ -9,7 +9,8 @@ define([
   $, _, Backbone
   , SnippetsCollection, MyFormSnippetsCollection
   , TabView, MyFormView
-  , inputJSON, radioJSON, selectJSON
+  , inputJSON
+  // , radioJSON, selectJSON
   // , buttonsJSON
   // , renderTab, aboutTab
 ){
@@ -21,14 +22,14 @@ define([
         title: "Input"
         , collection: new SnippetsCollection(JSON.parse(inputJSON))
       });
-      new TabView({
-        title: "Radios / Checkboxes"
-        , collection: new SnippetsCollection(JSON.parse(radioJSON))
-      });
-      new TabView({
-        title: "Select"
-        , collection: new SnippetsCollection(JSON.parse(selectJSON))
-      });
+      // new TabView({
+      //   title: "Radios / Checkboxes"
+      //   , collection: new SnippetsCollection(JSON.parse(radioJSON))
+      // });
+      // new TabView({
+      //   title: "Select"
+      //   , collection: new SnippetsCollection(JSON.parse(selectJSON))
+      // });
       // new TabView({
       //   title: "Buttons"
       //   , collection: new SnippetsCollection(JSON.parse(buttonsJSON))
